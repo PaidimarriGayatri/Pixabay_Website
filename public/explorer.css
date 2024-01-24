@@ -1,0 +1,137 @@
+#explorer {
+    /* border: 2px solid red; */
+    height: 680px;
+    width: 45%;
+    margin-left: 370px;
+    border-radius: 10px;
+    background-color: #000;
+    display: none ;
+    position: fixed;
+    top: 45px;
+}
+
+#sub-explorer{
+    display: flex;
+}
+
+#media{
+    border-left: 1px solid rgb(75, 73, 73);
+    width: 200px;
+}
+
+#media p{
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 8px 12px;
+    text-transform: capitalize;
+    padding-left: 20px
+}
+
+.btn21{
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 3px;
+    text-transform: capitalize;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn21:hover{
+    cursor: pointer;
+    background-color: #595656;
+}
+
+#media1 ol{
+    list-style: none;
+}
+
+#media1 ol li{
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 10px;
+    margin-top: 1px;
+    height: 40px;
+    width: 150px;
+    text-align:left;
+    padding-top: 10xpx;
+    padding-left: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+#media1 ol li:hover{
+    cursor: pointer;
+    background-color: #595656;
+}
+
+#community{
+    border-left: 1px solid rgb(75, 73, 73);
+    width: 190px;
+}
+
+#community ol li{
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    text-align:left;
+    padding-top: 10xpx;
+    padding-left: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    list-style: none;
+}
+
+#community ol li:hover{
+    cursor: pointer;
+    background-color: #595656;
+}
+
+#community ol p{
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 8px 12px;
+    text-transform: capitalize;
+    padding-left: 30px;
+}
+
+#community1{
+    border-left: 1px solid rgb(75, 73, 73);
+    width: 190px;
+}
+
+#community1 ol li{
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+    text-align:left;
+    padding-top: 10xpx;
+    padding-left: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    list-style: none;
+}
+
+#community1 ol li:hover{
+    cursor: pointer;
+    background-color: #595656;
+}
+
+#community1 ol p{
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 8px 12px;
+    text-transform: capitalize;
+    padding-left: 30px;
+}

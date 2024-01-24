@@ -1,0 +1,114 @@
+@import url("./section.css");
+@import url("./section2.css");
+@import url("./section3.css");
+@import url("./footer.css");
+@import url("./explorer.css");
+@import url("./login.css");
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Open Sans,system-ui;
+}
+
+#nav{
+    /* border: 2px solid; */
+    height: 63px;
+    z-index: 10;
+    width: 100%;
+    /* background-color: #000; */
+    position: fixed;
+}
+
+#sub-nav{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-left  svg:hover{
+    cursor: pointer;
+}
+
+#nav-left  svg{
+    height: 32px;
+    width: 116px;
+    color: #fff;
+}
+
+#nav-right{
+    /* border: 2px solid ; */
+    width: 380px;
+}
+
+#nav-right ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-right ol li button{
+    text-transform: capitalize;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#btn11{
+    width: 100px;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    background-color: hsla(0,0%,100%,.0);
+}
+
+
+
+#btn11:hover{
+    cursor: pointer;
+    background-color: hsla(0,0%,100%,.1);
+}
+
+#btn21{
+    width: 72px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background-color: hsla(0,0%,100%,.0);
+}
+
+#btn21:hover{
+    cursor: pointer;
+    background-color: hsla(0,0%,100%,.1);
+}
+
+#btn31{
+    width: 59px;
+    border-radius: 20px;
+    background: hsla(0,0%,100%,.1);
+    border: 1px solid hsla(0,0%,100%,.1);
+    color: #fff;
+}
+
+#btn31:hover{
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+#btn41{
+    width: 100px;
+    border-radius: 20px;
+    background-color: #00AB6B;
+    color: #fff;
+    border: none;
+}
+
+#btn41:hover{
+    background-color: #25c48c;
+    cursor: pointer;
+}

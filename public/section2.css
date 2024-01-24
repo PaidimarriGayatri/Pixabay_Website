@@ -1,0 +1,151 @@
+#section2{
+    border-bottom: 1px solid #ceced2;
+}
+
+#sub-section2{
+    /* border: 2px solid red; */
+    width: 96%;
+    margin: auto;
+}
+
+#buttons2{
+    /* border: 2px solid; */
+    height: 160px;
+    text-align: center;
+}
+
+.btn2{
+    height: 40px;
+    margin-top: 38px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #656F79;
+    font-weight: 600;
+}
+
+.btn2:hover{
+    cursor: pointer;
+    background-color: #f7f3f3;
+}
+
+#home{
+    width: 101px;
+    background-color: #f7f3f3;
+    color: #191B26;
+}
+
+#home  span i{
+    color: green;
+    width: 13px;
+    height: 20px;
+}
+
+#photo{
+    width: 108px;
+}
+
+#illustration{
+    width: 143px;
+}
+
+#vectors{
+    width: 110px;
+}
+
+#videos{
+    width: 106px
+}
+
+#music{
+    width: 100px;
+}
+
+#sound{
+    width: 154px;
+}
+
+#gif{
+    width: 77px;
+}
+
+.btn1{
+    height: 32px;
+    margin-top: 38px;
+    /* margin-right: 10px; */
+    border: 1px solid #ceced2;
+    color: #191b26;
+    border-radius: 8px;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+#background{
+    width: 103px;
+}
+
+#nature{
+    width: 69px;
+}
+
+#sky{
+    width: 47px;
+}
+
+#food{
+    width: 56px;
+}
+
+#cat{
+    width: 45px;
+}
+
+#beach{
+    width: 65px;
+}
+
+#love{
+    width: 52px;
+}
+
+#flower{
+    width: 67px;
+}
+
+#man{
+    width: 55px;
+}
+
+#space{
+    width: 63px;
+}
+
+#flowers{
+    width: 73px;
+}
+
+#water{
+    width: 63px;
+}
+
+#iphone{
+    width: 113px;
+}
+
+#edit{
+    width: 151px;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 0px;
+    text-transform: capitalize;
+    border-radius: 24px;
+    color: #191b26;
+    font-weight: 600;
+}
